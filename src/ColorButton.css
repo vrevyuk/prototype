@@ -1,0 +1,16 @@
+.ColorButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: solid 1px silver;
+    opacity: 1;
+}
+
+.ColorButton:disabled {
+    opacity: 0.2;
+}
+
+.ColorButton:enabled:active {
+    transform: translate(1px, 1px);
+}
