@@ -20,7 +20,6 @@ const SIZES = {
 function Block(props) {
     const urlIsValid = isValidAutomergeUrl(props.documentHash);
     const [docHandle, changeDocHandle] = useDocument(props.documentHash);
-    console.log("XXX", docHandle)
 
     const changeText = text => {
         // console.log("setText 1", text, urlIsValid, docHandle);
