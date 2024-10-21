@@ -4,4 +4,4 @@
 - cd prototype
 - npm i
 - npm start
-- run it in two or more browsers and/or tabs. Enjoi the sync.
+- run it in two or more browsers and/or tabs. Enjoy the sync.
